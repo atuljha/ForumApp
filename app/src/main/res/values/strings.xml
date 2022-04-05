@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ForumsApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Login">Login</string>
+    <string name="createaccount">Create New Account</string>
+    <string name="Submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="user_token">USER_TOKEN</string>
+    <string name="user_name">USER_NAME</string>
+    <string name="shared_prefs">SHARED_PREFS</string>
+    <string name="enterPost" />
+    <string name="enterPostHint">Forum Title</string>
+    <string name="email" />
+    <string name="emailHint">Email</string>
+    <string name="password" />
+    <string name="passwordHint">Password</string>
+    <string name="fullName" />
+    <string name="fullNameHint">Full Name</string>
+    <string name="logoutBtn">Logout</string>
+    <string name="createPostBtn">New Forum</string>
+    <string name="welcomeText" />
+    <string name="showingText" />
+    <string name="description" />
+    <string name="nameDisplay" />
+    <string name="date" />
+    <string name="time" />
+    <string name="ForumDescription" />
+    <string name="ForumDescriptionHint">Forum Description</string>
+    <string name="commentTitle" />
+    <string name="commentForumCreated" />
+    <string name="commentForumDesc" />
+    <string name="CommentsDisplay" />
+    <string name="commentText" />
+    <string name="commentTextHint">Write Comment</string>
+    <string name="post">Post</string>
+    <string name="commentCreatedBy" />
+    <string name="CommentDate" />
+</resources>

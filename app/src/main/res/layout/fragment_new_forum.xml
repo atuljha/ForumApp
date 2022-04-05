@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePostFragment" >
+
+    <EditText
+        android:id="@+id/forumTile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/enterPostHint"
+        android:inputType="textPersonName"
+        android:text="@string/enterPost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/forumSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/Submit"
+        app:layout_constraintEnd_toEndOf="@+id/forumTile"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="@+id/forumTile"
+        app:layout_constraintTop_toBottomOf="@+id/forumDescription" />
+
+    <TextView
+        android:id="@+id/cancelPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forumSubmit" />
+
+    <EditText
+        android:id="@+id/forumDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/ForumDescriptionHint"
+        android:inputType="textPersonName"
+        android:text="@string/ForumDescription"
+        app:layout_constraintEnd_toEndOf="@+id/forumTile"
+        app:layout_constraintStart_toStartOf="@+id/forumTile"
+        app:layout_constraintTop_toBottomOf="@+id/forumTile" />
+</androidx.constraintlayout.widget.ConstraintLayout>

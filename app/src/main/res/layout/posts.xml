@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/likeImage"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toEndOf="@+id/createdAt"
+        app:layout_constraintTop_toTopOf="@+id/createdAt"
+        app:srcCompat="@drawable/ic_trash" />
+
+    <TextView
+        android:id="@+id/forumTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/createdBy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/forumTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forumTitle" />
+
+    <TextView
+        android:id="@+id/forumDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/createdBy"
+        app:layout_constraintStart_toStartOf="@+id/createdBy"
+        app:layout_constraintTop_toBottomOf="@+id/createdBy" />
+
+    <TextView
+        android:id="@+id/createdAt"
+        android:layout_width="0dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@+id/Likes"
+        app:layout_constraintTop_toTopOf="@+id/Likes" />
+
+    <ImageView
+        android:id="@+id/likeImage"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.882"
+        app:srcCompat="@drawable/like_not_favorite" />
+
+    <TextView
+        android:id="@+id/Likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forumDesc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

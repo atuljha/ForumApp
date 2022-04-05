@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9180406450",
+    "project_id": "fir-aa5a9",
+    "storage_bucket": "fir-aa5a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9180406450:android:b76d82ae909bb5fdc05fab",
+        "android_client_info": {
+          "package_name": "com.example.forumapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9180406450-himqn4egv237eheevmo0lqp812cgbde3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRrmO0itOp8ne2RPsBLYwEZtfKfvjg4nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9180406450-himqn4egv237eheevmo0lqp812cgbde3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
